@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+}
+header{
+	background-image: url('../images/changingbg/33.gif');
+	height: 50%;
+	background-size: cover;
+	background-position: 0px -150px;
+	animation: change 30s infinite;
+}
+@keyframes change {
+	0%{
+		background-image: url('../images/changingbg/33.gif');
+		background-size: cover;
+	}
+	18%{
+		background-image: url('../images/changingbg/34.gif');
+		background-size: cover;
+	}
+	27%{
+		background-image: url('../images/changingbg/35.gif');
+		background-size: cover;
+	}
+	36%{
+		background-image: url('../images/changingbg/36.gif');
+		background-size: cover;
+	}
+	45%{
+		background-image: url('../images/changingbg/37.gif');
+		background-size: cover;
+	}
+	54%{
+		background-image: url('../images/changingbg/38.gif');
+		background-size: cover;
+	}
+	63%{
+		background-image: url('../images/changingbg/39.gif');
+		background-size: cover;
+	}
+	72%{
+		background-image: url('../images/changingbg/40.gif');
+		background-size: cover;
+		background-position: 0px -325px;
+	}
+	81%{
+		background-image: url('../images/changingbg/21.gif');
+		background-size: cover;
+		background-position: 0px -235px;
+	}
+	90%{
+		background-image: url('../images/changingbg/22.gif');
+		background-size: cover;
+		background-position: 0px -150px;
+	}
+	100%{
+		background-image: url('../images/changingbg/23.gif');
+		background-size: cover;
+	}
+}
+
+.container{
+	position: relative;
+	top: 25%;
+	bottom: 25%;
+	left: 35px;
+}
+
+header h1, header h2, header h5{
+	font-family: Century Gothic;
+	color: white;
+}
+
+nav ul { /*Nav-bar*/
+	list-style-type: none;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+	position: relative;
+	top: -8px;
+}
+
+nav li { /*Nav-bar entries located*/
+	float: left;
+	width: 20%;
+}
+
+nav li a { /*Nav-bar entries */
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 13px;
+	text-decoration: none;
+	font-size: 1.25em;
+	font-family: tahoma;
+}
+
+nav li a:hover { /*Nav-bar entries on hover */
+	background-color: #111;
+}
+
+nav .active{ /*Corresponded html */
+	background-color: green;
+}
+
+.a{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDFFB9;
+	padding: 8px;
+	border-left-width: 5px;
+	border-left-color: green;
+	border-left-style: solid;
+	overflow: auto;
+}
+
+.a h1, .a h2, .a h3{
+	font-family: Century Gothic;
+}
+
+.a p, .a li{
+	font-family: Arial;
+	line-height: 1.25em;
+}
+
+.a img{
+	margin: 8px;
+}
+
+.a a{
+	text-decoration: none;
+}
+
+.a a::before{
+	content: "◆  "
+}
+
+.a a::after{
+	content: " (" attr(href) ")";
+}
+

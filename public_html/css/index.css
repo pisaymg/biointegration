@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+}
+header{
+	background-image: url('../images/changingbg/1.gif');
+	height: 80%;
+	background-size: cover;
+	background-position: 0px -150px;
+	animation: change 30s infinite;
+}
+@keyframes change {
+	0%{
+		background-image: url('../images/changingbg/1.gif');
+		background-size: cover;
+	}
+	9%{
+		background-image: url('../images/changingbg/2.gif');
+		background-size: cover;
+	}
+	18%{
+		background-image: url('../images/changingbg/3.gif');
+		background-size: cover;
+	}
+	27%{
+		background-image: url('../images/changingbg/4.gif');
+		background-size: cover;
+	}
+	36%{
+		background-image: url('../images/changingbg/5.gif');
+		background-size: cover;
+	}
+	45%{
+		background-image: url('../images/changingbg/6.gif');
+		background-size: cover;
+	}
+	54%{
+		background-image: url('../images/changingbg/7.gif');
+		background-size: cover;
+	}
+	63%{
+		background-image: url('../images/changingbg/8.gif');
+		background-size: cover;
+	}
+	72%{
+		background-image: url('../images/changingbg/9.gif');
+		background-size: cover;
+	}
+	81%{
+		background-image: url('../images/changingbg/10.gif');
+		background-size: cover;
+	}
+	90%{
+		background-image: url('../images/changingbg/11.gif');
+		background-size: cover;
+	}
+	100%{
+		background-image: url('../images/changingbg/12.gif');
+		background-size: cover;
+	}
+}
+.container{
+	position: relative;
+	top: 40%;
+	bottom: 40%;
+	left: 35px;
+}
+
+header h1, header h2, header h3{
+	font-family: Century Gothic;
+	color: white;
+}
+
+nav ul { /*Nav-bar*/
+	list-style-type: none;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+	position: relative;
+	top: -8px;
+}
+
+nav li { /*Nav-bar entries located*/
+	float: left;
+	width: 20%
+}
+
+nav li a { /*Nav-bar entries */
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 13px;
+	text-decoration: none;
+	font-size: 1.25em;
+	font-family: tahoma;
+}
+
+nav li a:hover { /*Nav-bar entries on hover */
+	background-color: #111;
+}
+
+nav .active{ /*Corresponded html */
+	background-color: green;
+}
+
+.a{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDFFB9;
+	padding: 8px;
+	border-left-width: 5px;
+	border-left-color: green;
+	border-left-style: solid;
+}
+
+.a h1{
+	font-family: Century Gothic;
+}
+
+.a p{
+	font-family: Arial;
+}
